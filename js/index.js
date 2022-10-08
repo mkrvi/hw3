@@ -1,7 +1,7 @@
-const num = +prompt('Enter the first number');
+const firstNumber = +prompt('Enter the first number');
 
-const number = +prompt('Enter the second number');
+const secondNumber = +prompt('Enter the second number');
 
-const sum = num + number;
+const result = firstNumber + secondNumber;
 
-alert(sum);
+alert(result);
